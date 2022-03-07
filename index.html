@@ -7,6 +7,76 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Pasteleria El Chemin</h1>
+    <p>Haga su pedido</p>
+
+    <h4>Sabores a elegir</h4>
+    <ul>
+        <li>chocolate -$500</li>
+        <li>vainilla - $350</li>
+        <li>fresa - $400</li>
+    </ul>
+
+    <h4>Adornos a elegir</h4>
+    <ul>
+        <li>Brillitos -$150</li>
+        <li>Chispas de colores - $250</li>
+        <li>Chispas de chocolate - $300400</li>
+    </ul>
+
+    <form action="/action.php">
+        <p>Sabores</p>
+        <input type="checkbox" name="chocolate" id="chocolate" value="chocolate">
+        <label for="chocolate">chocolate</label>
+        <input type="checkbox" name="vainilla" id="vainilla" value="vainilla">
+        <label for="vainilla">vainilla</label>
+        <input type="checkbox" name="fresa" id="fresa" value="fresa">
+        <label for="fresa">fresa</label>
+        <br>
+
+        <p>Adornos</p>
+        <input type="checkbox" name="brillitos" id="brillitos" value="brillitos">
+        <label for="brillitos">brillitos</label>
+        <input type="checkbox" name="chispas de colores" id="chispas de colores" value="chispas de colres">
+        <label for="chocolate">chispas de colores</label>
+        <input type="checkbox" name="chispas de chocolate" id="chispas de chocolate" value="chispas de chocolate">
+        <label for="chocolate">chispas de chocolate</label>
+        <br><br>
+        <label for="descripcion">Agrega una descripcion</label><br>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50" maxlength="200">
+        Aqui agrega la descripcion del pastel
+            </textarea>    
+
+        <br>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" >
+        <br>
+
+        <br>
+        <label for="telefono">Telefono: </label>
+        <input type="number" id="telefono" >
+        <br>
+
+        <br>
+        <label for="email">email: </label>
+        <input type="text" id="email" >
+        <br>
+
+        <br>
+        <label for="direccion">Direccion: </label>
+        <input type="text" id="direccion" >
+        <br>
+        <br>
+
+            <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+    <h3>Informacion general</h5>
+    <ul>
+        <li> Direccion: Av.Olimpo 345</li>
+        <li>Telefono : 1234566789</li>
+        <li>Horario: Lun a viernes de 9 a.m a 8 p.m</li>
+    </ul>
 </body>
 </html>
